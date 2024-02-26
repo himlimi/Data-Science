@@ -1,0 +1,31 @@
+1 - [22,27,16,2,18,6] -> Insertion Sort
+
+A) Yukarıda verilen dizinin sort türüne göre aşamalarını yazınız
+
+1st Step - [22,27,16,2,18,6] - 22 is already less than 27. No sorting has done.
+2nd Step - [22,16,27,2,18,6] - 27 is bigger than 16. They replaced their places.
+3rd Step - [22,16,2,27,18,6] - 27 is bigger than 2. They replaced their places.
+4th Step - [22,2,16,27,18,6] - 16 is bigger than 2. They replaced their places.
+5th Step - [2,22,16,27,18,6] - 22 is bigger than 2. They replaced their places.
+6th Step - [2,16,22,27,18,6] - 22 is bigger than 16. They replaced their places.
+7th Step - [2,16,22,18,27,6] - 27 is bigger than 18. They replaced their places.
+8th Step - [2,16,18,22,27,6] - 22 is bigger than 18. They replaced their places.
+9th Step - [2,16,18,22,6,27] - 27 is bigger than 6. They replaced their places.
+10th Step - [2,16,18,6,22,27] - 22 is bigger than 6. They replaced their places.
+11th Step - [2,16,6,18,22,27] - 18 is bigger than 6. They replaced their places.
+12th Step - [2,6,16,18,22,27] - 16 is bigger than 6. They replaced their places.
+
+B) Big-O gösterimini yazınız.
+
+n+(n-1)+(n-2)...+1=n*(n+1)/2
+
+C)Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+Worst Case
+
+2 - [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+1st Step - [3,7,5,8,2,9,4,15,6] - 7 is bigger than 3. They replaced their places.
+2nd Step - [3,5,7,8,2,9,4,15,6] - 7 is bigger than 5. They replaced their places.
+3rd Step - [3,5,7,2,8,9,4,15,6] - 8 is bigger than 2. They replaced their places.
+4th Step - [3,5,2,7,8,9,4,15,6] - 7 is bigger than 2. They replaced their places.
